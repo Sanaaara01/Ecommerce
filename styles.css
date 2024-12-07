@@ -1,0 +1,100 @@
+/** styles.css **/
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: white;
+    padding: 1em;
+}
+
+header .logo {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1em;
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.cart {
+    font-size: 1.2em;
+}
+
+.hero {
+    text-align: center;
+    background: #f4f4f4;
+    padding: 2em;
+}
+
+.hero .btn {
+    display: inline-block;
+    padding: 0.5em 1em;
+    background-color: #333;
+    color: white;
+    text-decoration: none;
+    margin-top: 1em;
+    border-radius: 5px;
+}
+
+#products {
+    padding: 2em;
+    text-align: center;
+}
+
+.product-list {
+    display: flex;
+    gap: 2em;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.product {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 1em;
+    max-width: 200px;
+}
+
+.product img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.product button {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 0.5em 1em;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.product button:hover {
+    background-color: #555;
+}
+
+footer {
+    text-align: center;
+    background-color: #333;
+    color: white;
+    padding: 1em;
+    margin-top: 2em;
+}
